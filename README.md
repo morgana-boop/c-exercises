@@ -1,10 +1,3 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8A2BE2&height=100&section=header&text=Exercises_C&fontColor=ffffff&fontSize=36" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,arch,git,bash&perline=4" />
-</p>
 
 <p align="center"><em>C programming exercises: from fundamentals to data structures.</em></p>
 
@@ -35,6 +28,3 @@ gcc -Wall -Wextra -o out file.c && ./out
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8A2BE2&height=80&section=footer" />
-</p>
