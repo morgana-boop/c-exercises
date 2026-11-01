@@ -1,2 +1,6 @@
 *.out
 build/
+.vscode/
+a.out
+*.out
+*.o
