@@ -1,26 +1,27 @@
+
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Depurar arquivo C aberto",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${workspaceFolder}/build/Debug/${fileBasenameNoExtension}",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${fileDirname}",
-      "environment": [],
-      "externalConsole": false,
-      "MIMode": "gdb",
-      "miDebuggerPath": "/usr/bin/gdb",
-      "preLaunchTask": "Compilar arquivo C atual",
-      "setupCommands": [
+    "version": "0.2.0",
+    "configurations": [
         {
-          "description": "Habilitar pretty-printing no GDB",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
+            "name": "Depurar arquivo C aberto",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Debug/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "C: compilar com raylib",
+            "setupCommands": [
+                {
+                    "description": "Habilitar pretty-printing no GDB",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

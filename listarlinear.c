@@ -14,7 +14,7 @@ void criarLista(){
 
 void remover() {
     int key;
-    int posicao = -1;
+    int posicao;
 
     printf("Digite o valor que sera removido: ");
     scanf("%d", &key);
@@ -24,11 +24,6 @@ void remover() {
             posicao = i;
             break;
         }
-    }
-
-    if (posicao == -1) {
-        printf("Valor nao encontrado!\n");
-        return;
     }
 
     for (int i = posicao; i < quantidade - 1; i++) {
@@ -44,9 +39,6 @@ void listar(){
         printf("Valores: %d\n", lista[i]);
     }
 }
-
-
-
 
 
 int main(){
