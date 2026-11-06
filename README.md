@@ -28,6 +28,18 @@ git clone https://github.com/morgana-boop/c-exercises.git
 cd c-exercises
 ```
 
+### Requirements
+
+- GCC compiler
+- Git
+
+### Clone
+
+```bash
+git clone https://github.com/morgana-boop/c-exercises.git
+cd c-exercises
+```
+
 ### Build & Run
 
 Each `.c` file is an independent exercise. Compile and run one exercise at a time from the repository root.
@@ -40,13 +52,6 @@ gcc -Wall -Wextra -std=c17 -o out 01-basics/10celciuspara100.c
 ```
 
 Replace the source file path with the exercise you want to compile.
-
-### Roadmap
-
-- [ ] Strings and file I/O
-- [ ] Dynamic memory (`malloc`/`free`) with Valgrind
-- [ ] Trees and graphs
-- [ ] Sorting and searching algorithms
 
 ---
 
