@@ -15,9 +15,31 @@
 
 ### Build & Run
 
+
+### Requirements
+
+- GCC compiler
+- Git
+
+### Clone
+
 ```bash
-gcc -Wall -Wextra -o out file.c && ./out
+git clone https://github.com/morgana-boop/c-exercises.git
+cd c-exercises
 ```
+
+### Build & Run
+
+Each `.c` file is an independent exercise. Compile and run one exercise at a time from the repository root.
+
+Example:
+
+```bash
+gcc -Wall -Wextra -std=c17 -o out 01-basics/10celciuspara100.c
+./out
+```
+
+Replace the source file path with the exercise you want to compile.
 
 ### Roadmap
 
