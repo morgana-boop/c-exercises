@@ -1,12 +1,22 @@
+
 {
   "version": "2.0.0",
   "tasks": [
     {
       "label": "Compilar arquivo C atual",
-      "type": "shell",
-      "command": "mkdir -p \"${workspaceFolder}/build/Debug\" && gcc -std=c17 -Wall -Wextra -Wpedantic -g3 -O0 \"${file}\" -o \"${workspaceFolder}/build/Debug/${fileBasenameNoExtension}\"",
+      "type": "process",
+      "command": "gcc",
+      "args": [
+        "-g",
+        "-Wall",
+        "-Wextra",
+        "-std=c11",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}"
+      ],
       "options": {
-        "cwd": "${workspaceFolder}"
+        "cwd": "${fileDirname}"
       },
       "problemMatcher": [
         "$gcc"
